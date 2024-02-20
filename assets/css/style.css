@@ -1,0 +1,18 @@
+:root {
+    --BGCOLORPU: #252525;
+    --BGCOLORPR: #F3f3f3;
+    --PRIMARY: #310F8E;
+    --SECONDARY: #565759;
+    --ACCENT1: #FEE440  ;
+    --ACCENT2: #ed5BE8;
+    --FONTCOLOR: #F3f3f3;
+    --FONTCOLOR2: #252525;
+    --FONTTITLE: "Playfair", sans-serif;
+    --FONTTEXT: "Montserrat", sans-serif;
+  }
+
+    main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
