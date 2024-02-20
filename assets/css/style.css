@@ -11,6 +11,7 @@
     --FONTTEXT: "Montserrat", sans-serif;
   }
 
+
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -64,4 +65,25 @@ main{
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
+}
+
+.image_slide1 {
+    background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--FONTCOLOR);
+}
+
+.image-slide2{
+background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: var(--FONTCOLOR);
+}
+
+.image-slide3{
+background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: var(--FONTCOLOR);
 }
