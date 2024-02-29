@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
     <title>Document</title>
 </head>
 <body>
@@ -41,16 +42,56 @@
         </div>
     </header>
 <main>  
-    <div class="language-selection">
+ <!--  <div class="language-selection">
         <button>English</button>
         <button>German</button>
         <button>Persan</button>
         <button>Chinois</button>
     </div>
+--> 
+<div class="drop-down">
+  <div class="wrapper">
+    <img class="selectedImg" src="assets/img/fr flag.png" alt="french flag">
+    <div class="selected">FRANCAIS</div>
+  </div>
+  <i class="fa-solid fa-chevron-down"></i>
+
+  <div class="list">
+
+    <div class="item">
+      <img src="assets/img/en flag.png" alt="english flag">
+      <div class="text">ENGLISH</div>
+    </div>
+
+    <div class="item">
+      <img src="assets/img/al flag.png" alt="deutsch flag">
+      <div class="text">DEUTSCH</div>
+    </div>
+
+    <div class="item">
+      <img src="assets/img/ch flag.png" alt="chinese flag">
+      <div class="text">CHINESE</div>
+    </div>
+
+    <div class="item">
+      <img src="assets/img/ir flag.png" alt=" iranian flag">
+      <div class="text">PERSIAN</div>
+    </div>
+
+    <div class="item">
+      <img src="assets/img/fr flag.png" alt="french flag">
+      <div class="text">FRANCAIS</div>
+    </div>
+    
+  </div>
+</div>
+
+
+
   <div class="artwork">
         <h3>Fiche de l'oeuvre</h3>
         <img src="assets/img/pills.jpg" alt="voiles">
-      </div>
+  </div>
         <div class="description">
             <h3>Description de l'oeuvre</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque quam id augue fermentum ullamcorper. Aliquam ultrices neque nec justo posuere, sit amet varius lectus tincidunt.</p>
@@ -106,12 +147,11 @@
       <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
 
-
 <footer class="footer">
   <a href="#">Conditions générales de ventes</a>
 </footer>
 </main>
 
-    <script src="script.js"></script>
+    <script src="script1.js"></script>
 </body>
 </html>
