@@ -8,6 +8,7 @@
   body{
     height: 100vh;
     width: 100vw;
+    background-color: #252525;
   }
   
   header {
@@ -27,6 +28,8 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     padding-top: 150px;
+    color: #fff;
+    
 }
 
   a {
@@ -118,6 +121,8 @@
     align-items: center;
     gap: 10px;
   }
+  .additional-info ul li {
+list-style: none;}
 
 /**/
 .drop-down {
@@ -127,7 +132,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #252525;
   width: 200px;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -143,14 +148,13 @@ img {
   height: 30px;
 }
 .list{
-  background-color: #fff;
+  background-color: #252525;
   position: absolute;
   top: 45px;
   left: 0;
   border-radius: 0 0 5px 5px;
   cursor: pointer;
   max-height: 250px;
-  overflow-y: scroll;
   display: none;
 }
 .show{
@@ -163,25 +167,10 @@ img {
   gap: 0.5rem;
 }
 .item:hover{
-  background-color: yellow;
+  background-color: #FEE440;
 }
 
 
-
-
-
-
-
-
-
-
-/*
-
-.language-selection {
-  grid-column: 11/13;
-  grid-row: 1;
-}
-*/
 .artwork{
   grid-column: 2/12;
   grid-row: 2;
