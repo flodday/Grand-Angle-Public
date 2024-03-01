@@ -154,6 +154,7 @@
     text-align: center;
     line-height: 50px;
     background: #FEE440;
+    color: #000000;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
     transform: translateY(-50%);
@@ -215,9 +216,9 @@
     border-radius: 10%;
   }
   .card .img img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 15%;
     object-fit: cover;
   }
 
