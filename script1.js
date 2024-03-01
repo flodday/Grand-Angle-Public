@@ -13,6 +13,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   navMenu.classList.remove("active");
 }))
 
+
 /*Language selection*/ 
 
 const dropdown = document.querySelector('.drop-down');
@@ -31,6 +32,8 @@ list.addEventListener('click', (e)=>{
     selected.innerHTML= text.innerHTML;
 
 })
+
+
 /*Carrousel*/ 
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
