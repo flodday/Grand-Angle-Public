@@ -213,6 +213,8 @@ img {
     display: none;
 }
 
+
+
 @media(max-width:1600px) {
   .container {
     width: 100%;
