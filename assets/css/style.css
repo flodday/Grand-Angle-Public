@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
-
 :root {
     --BGCOLORPU: #252525;
     --BGCOLORPR: #F3f3f3;
@@ -62,7 +59,7 @@
     align-items: center;
     gap: 100px;
   }
-.navbar-left img {
+.navbar-left .image-GA {
     height: 140px;
     width: 140px;
 }
@@ -177,27 +174,31 @@
     transition: left 0.65s ease-out;
 }
 
-.image_slide1 {
+.image_slide {
     background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--FONTCOLOR);
+    justify-content: center;
 }
 
-.image-slide2{
-background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-color: var(--FONTCOLOR);
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+
+
+/*=============== BASE ===============*/
+
+
+body {
+  font-family: var(--FONTTEXT);
+  background-color: var(--BGCOLORPU);
+  color: var(--FONTCOLOR);
 }
 
-.image-slide3{
-background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-color: var(--FONTCOLOR);
+a {
+  text-decoration: none;
 }
-
 
 .image_carousel2 {
   display: block;
