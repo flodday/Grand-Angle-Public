@@ -40,6 +40,10 @@
     margin-bottom: 5px ;
     color: #FEE440;
   }
+  h3{
+    letter-spacing: 0.2rem;
+  }
+
   .container {
     width: 1600px;
     margin: auto;
@@ -127,7 +131,7 @@
 
 /**/
 .drop-down {
-  grid-column: 11/13;
+  grid-column: 10/13;
   grid-row: 1;
   position: relative;
   display: flex;
