@@ -246,5 +246,55 @@
 footer {
   grid-column: 2/12;
   grid-row: 12;
-  text-align: center;
+}
+.footer{
+  padding: 70px 0;
+}
+.footer-container{
+  margin: auto;
+}
+.footer-container ul {
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 33%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  background-color: #FEE440;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3 ease;
+}
+.footer-col ul li a:hover{
+  color: #FEE440;
+  padding-left: 10px;
 }
