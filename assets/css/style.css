@@ -299,6 +299,13 @@
   color: var(--FONTCOLOR);
   font-size: 1.31rem;
 }
+/* Prototype carousel2 fin */ 
+
+.contacte {
+  background: var(--BGCOLORPU);
+  width: 100%;
+  height: 50vh;
+}
 
 @media screen and (max-width: 900px) {
   .wrapper .carousel2 {
@@ -312,7 +319,7 @@
   }
 }
 
-/* Prototype carousel2 fin */ 
+
 
 @media(max-width:1600px) {
   .container {
