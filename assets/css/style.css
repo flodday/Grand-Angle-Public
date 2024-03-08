@@ -18,7 +18,6 @@
   }
   
   body{
-    height: 1000vh;
     background: #252525 ;
   }
 
@@ -187,6 +186,7 @@
     background-size: cover;
     color: var(--FONTCOLOR);
     justify-content: center;
+    width: 100%;
 }
 .image_slide2 {
     background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg);
@@ -194,6 +194,7 @@
     background-size: cover;
     color: var(--FONTCOLOR);
     justify-content: center;
+    width: 100%;
 }
 .image_slide3 {
     background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg);
@@ -201,6 +202,10 @@
     background-size: cover;
     color: var(--FONTCOLOR);
     justify-content: center;
+    width: 100%;
+}
+img {
+  display: none;
 }
 
 /* Prototype carousel2 debut */ 
@@ -301,10 +306,37 @@
 }
 /* Prototype carousel2 fin */ 
 
-.contacte {
+.contact {
   background: var(--BGCOLORPU);
   width: 100%;
   height: 50vh;
+}
+.tableau_contact {
+  display: flex;
+}
+.bloc_contact {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lien_info {
+  text-decoration: none;
+  color: var(--FONTCOLOR);
+}
+
+.P_contact {
+  margin-left: 30px;
+  color: var(--FONTCOLOR);
+}
+
+button{
+  width: 40px;
+  height: 25px;
+  box-shadow: var(--ACCENT1);
+  border-radius: 75px;
+  background: var(--SECONDARY);
+  border: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -389,5 +421,8 @@
   .nav-menu {
     width: 200px;
     left: -240px;
+  }
+  body {
+    width: 100vw;
   }
 }
