@@ -23,9 +23,9 @@
         <div class="footer-col">
             <h4>Contact</h4>
             <div class="social-links">
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <button class="button_réseau"><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></button>
+                <button class="button_réseau"><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></button>
+                <button class="button_réseau"><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></i></a></button>
 
             </div>
         </div>

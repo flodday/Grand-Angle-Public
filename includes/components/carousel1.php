@@ -10,7 +10,7 @@
             <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked />
             <div class="slide-img image_slide1">
               <h1>expo1</h1>
-              <img src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg" alt=""/>
+              <img src="../../assets/img/condense_artiste.png" alt=""/>
             </div>
 
             <input class="slide-input" id="slide-dot-2" type="radio" name="slides" />

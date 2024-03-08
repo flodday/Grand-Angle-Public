@@ -131,8 +131,9 @@
     width: 102vw;
     position: relative;
     margin: 0;
-    height: 70vh;
+    height: 60vh;
     overflow: hidden;
+    color: var(--FONTCOLOR);
 }
 .menu {
   position: absolute;
@@ -172,7 +173,12 @@
     top: 0;
     left: 100%;
     z-index: 10;
-    transition: left 0s 0.75s;
+    transition: left 0s 0.75s;    
+    max-width: 1625px;
+    max-height: 500px;
+}
+.slide-img img {
+  display: none;
 }
 [id^="slide"]:checked + .slide-img {
     left: 0;
@@ -181,12 +187,11 @@
 }
 
 .image_slide1 {
-    background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg);
+    background-image:url(../img/condense_artiste.png) ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     color: var(--FONTCOLOR);
-    justify-content: center;
-    width: 100%;
+
 }
 .image_slide2 {
     background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg);
@@ -204,9 +209,7 @@
     justify-content: center;
     width: 100%;
 }
-img {
-  display: none;
-}
+
 
 /* Prototype carousel2 debut */ 
 
@@ -215,7 +218,7 @@ img {
   padding: 0 35px;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 50vh;
   background: var(--BGCOLORPU);
 }
 .wrapper {
@@ -309,7 +312,7 @@ img {
 .contact {
   background: var(--BGCOLORPU);
   width: 100%;
-  height: 50vh;
+  height: 15vh;
 }
 .tableau_contact {
   display: flex;
@@ -337,6 +340,70 @@ button{
   border-radius: 75px;
   background: var(--SECONDARY);
   border: none;
+}
+footer {
+  grid-column: 2/12;
+  grid-row: 12;
+  background: var(--SECONDARY);
+}
+.footer{
+  padding-left: 15px;
+  padding-top: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+
+}
+.footer-container{
+  margin: auto;
+}
+.footer-container ul {
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 33%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  background-color: #FEE440;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3 ease;
+}
+.footer-col ul li a:hover{
+  color: #FEE440;
+  padding-left: 10px;
+}
+
+.button_réseau {
+  background: var(--BGCOLORPU);
 }
 
 @media screen and (max-width: 900px) {
