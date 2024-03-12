@@ -191,6 +191,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     color: var(--FONTCOLOR);
+    display: flex;
+  align-items: center;
 
 }
 .image_slide2 {
@@ -333,7 +335,7 @@
   color: var(--FONTCOLOR);
 }
 
-button{
+.button_réseau{
   width: 40px;
   height: 25px;
   box-shadow: var(--ACCENT1);
@@ -341,6 +343,11 @@ button{
   background: var(--SECONDARY);
   border: none;
 }
+
+.texte_expo1 {
+  text-align: center;
+}
+
 footer {
   grid-column: 2/12;
   grid-row: 12;
