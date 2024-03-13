@@ -192,8 +192,7 @@
     background-size:cover;
     color: var(--FONTCOLOR);
     display: flex;
-  align-items: center;
-
+    align-items: center;
 }
 .image_slide2 {
     background-image: url(https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg);
@@ -346,6 +345,33 @@
 
 .texte_expo1 {
   text-align: center;
+}
+
+
+.img_home {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+  color: var(--FONTCOLOR);
+}
+
+.img_artiste img {
+  width: 200px;
+  height: 200px;
+  padding-left: 25px;
+}
+
+.bloc_artiste{
+  align-self: center;
+}
+
+.bio_artiste {
+background: var(--SECONDARY);
+border-radius: 25px;
+color: var(--FONTCOLOR);
+padding: 30px;
 }
 
 footer {
