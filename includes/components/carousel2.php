@@ -2,7 +2,6 @@
     <!-- Prototype carousel2 debut -->
     <div class="mother_wrapper">
     <div class="wrapper">
-      <i id="left" class="fa-solid fa-angle-left"></i>
       <ul class="carousel2">
         <li class="card">
           <div class="img"><img src="../../assets/img/img-1.jpg" alt="img" draggable="false"></div>
@@ -35,7 +34,6 @@
           <span>App Designer</span>
         </li>
       </ul>
-      <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
   </div>
   <script src="./js/script.js" defer></script>
