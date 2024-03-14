@@ -6,14 +6,14 @@
     <br>
     <h3>1. Bulletin légales :</h3>
     <br>
-    <p>Le site localhost:8888 est l'unique propriété de SAS La Galerie Neo, qui le fourni.</p>
+    <p>Le site localhost:8888 est l'unique propriété de SAS La Galerie Grand Angle , qui le fourni.</p>
     <br>
-    <p>SAS La Galerie Neo - N° Tel : 0643645363</p>
+    <p>SAS La Galerie Grand Angle - N° Tel : 0606060606</p>
     <br>
     <p>8b, Allée du Plateau 41000 Blois
         Immatriculée au Registre du Commerce et des Sociétés sous le numéro 98765432100012</p>
     <br>
-    <p>Numero TVA Intracommunautaire : FR35987654321
+    <p>Numero TVA Intracommunautaire : FR????
         EMAIL : b.benyagoub41@gmail.com</p>
     <br>
     <p>Le Concepteur du site internet : M. TAVARD
